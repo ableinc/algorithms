@@ -1,2 +1,2 @@
 # algorithms
-Various different algorithms
+Various commonly used algorithms
