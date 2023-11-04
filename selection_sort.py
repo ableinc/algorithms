@@ -3,6 +3,13 @@ from typing import List
 def sort(array: List[int]) -> None:
     """
         Sort array in place using selection sort
+        Description:
+
+        Selection sort is a sorting technique in which
+        we find the minimum element in every iteration
+        and place it in the array beginning from the
+        first index. Thus, a selection sort also gets
+        divided into a sorted and unsorted subarray.
     """
     for i in range(len(array)):
         # Find the minimum element in remaining unsorted array
